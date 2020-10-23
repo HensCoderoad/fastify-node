@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "lib": ["dom", "es2015"],
+      "allowSyntheticDefaultImports": true,
+      "removeComments": true,    
+      "resolveJsonModule": true,
+    },
+    "exclude": ["node_modules"]
+  }

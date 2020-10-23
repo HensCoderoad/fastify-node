@@ -1,0 +1,38 @@
+{
+    "app_host": "localhost",
+    "app_port": "3001",
+    "client_base_url": "http://localhost:3000",
+    "env": "development",
+    "logLevel": "info",
+    "errorStatus": {
+        "OperationError": 503,
+        "InternalError": 500,
+        "NotFoundError": 404,
+        "ForbiddenError": 403,
+        "UnauthorizedError": 401,
+        "InvalidError": 400
+    },
+    "knex": {
+        "client": "postgres",
+        "connection": {
+            "host": "localhost",
+            "port": 5432,
+            "database": "postgres",
+            "user": "postgres",
+            "password": "root",
+            "connectionTimeout": 3000,
+            "requestTimeout": 20000
+        }
+    },
+    "redis": {
+        "host": "",
+        "port": 6380
+    },
+    "jwt": {
+        "secret": "jh489384fdh2332e8hfwjhs",
+        "expiresin": "3h"
+    },
+    "encrypt" : {
+      "key":  "rCgF8ibZ6Rpq4CJ21OpBa8BEjLrigrjE"
+    }
+}
